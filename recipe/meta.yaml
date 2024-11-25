@@ -1,13 +1,13 @@
 {% set name = "aiorwlock" %}
-{% set version = "1.3.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiorwlock-{{ version }}.tar.gz
-  sha256: 83f12d87df4b9728a0b8fda1756585ab0d652b107bab59c6084e1b1ad692ab45
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiorwlock-{{ version }}.tar.gz
+  sha256: b529da24da659bdedcf68faf216595bde00db228c905197ac554773620e7fd2f
 
 build:
   noarch: python
